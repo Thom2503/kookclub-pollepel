@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+body {
+  background: #FF4040;
+}
+h1 {
+  text-align: center;
+	color: Black;
+  font-size: 25px;
+	margin-top: 25px;
+}
+h2 {
+  color: Black;
+  font-size: 20px;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+.header {
+  position: relative;
+  background: White;
+  width: 1200px;
+  border: 2px black solid;
+}
+.main {
+  position: relative;
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  background-color: White;
+  border: 2px black solid;
+}
+.algemeen {
+  position: center;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  background: white;
+  margin-top: 0px;
+  overflow: hidden;
+}
+.hyperlinks {
+  position: center;
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+}
+.search {
+  position: relative;
+  width: 150px;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 1198px;
+  background-color: White;
+  overflow: hidden;
+  display: flex;
+}
+
+li a {
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #FF4040;
+}
+
+li a:hover:not(.active) {
+  background-color: #FF4040;
+  color: #fff;
+}
+
+table, td {
+  display: flex;
+}
+
+.gerechtToevoegForm {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
+
+.gerechten {
+  display: grid;
+  grid-template: ;
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+}
+
+/* Gerecht detail pagina layout */
+.titel { grid-area: titel; }
+.user { grid-area: user; }
+.soort { grid-area: soort; }
+.bereidingstijd { grid-area: tijd; }
+.ingredienten { grid-area: ingr; }
+.bereiding { grid-area: bereiding}
+
+.container_gerecht {
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    'titel titel titel titel titel titel'
+    'user user bereiding bereiding bereiding bereiding'
+    'soort soort bereiding bereiding bereiding bereiding'
+    'tijd tijd bereiding bereiding bereiding bereiding'
+    'ingr ingr bereiding bereiding bereiding bereiding'
+    'ingr ingr bereiding bereiding bereiding bereiding';
+  grid-gap: 5px;
+  padding: 5px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  border: 1px black solid;
+}
+.hfdafb{
+  position: relative;
+  top: 98px;
+  left: 15%;
+}
+.gerechtenalle{
+  position: relative;
+  bottom: 350px;
+  left: 200px;
+}
+.toevoeg{
+  border: 1px solid black;
+  color: red;
+  position: absolute;
+  right: 50%;
+}
+.main a.toevoeg{
+ text-decoration: none;
+ text-align: center;
+ padding-top: 10px;
+ margin-top: 10px;
+ margin-bottom: 5px;
+}
+.voor{
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+.wvknop{
+  text-decoration: none;
+  color: red;
+  text-transform: uppercase;
+}
+.gerechten1{
+  display: flex;
+}
+.login{
+  margin:0 auto;
+  height: auto;
+  width: 295px;
+}
+.main h2{
+  text-align: center;
+}
+.maak{
+  width: 295px;
+  height:auto;
+  margin:0 auto;
+}
+.main .toevoegger{
+  width: 295px;
+  height: auto;
+  margin: 0 auto;
+}
+.menu{
+  overflow: hidden;
+}
