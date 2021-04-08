@@ -6,9 +6,9 @@
 
   //login credentials
   $db_hostname = 'Localhost';
-  $db_username = 'admin84843';
-  $db_password = 'sudo1234';
-  $db_database = '84843_beroeps';
+  $db_username = '#';
+  $db_password = '#';
+  $db_database = '#';
 
   //mysqli connection
   $mysqli = mysqli_connect($db_hostname, $db_username, $db_password, $db_database);
